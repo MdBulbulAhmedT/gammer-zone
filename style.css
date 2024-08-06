@@ -136,6 +136,32 @@ main{
     margin: 100px 0;
 }
 
+/* vedio section */
+.vedio-section{
+    margin: 100px 0;
+}
+
+.vedio-discription{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.vedio-discription h1{
+    font-size: 35px;
+}
+
+.vedio-contaner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.vedio-card img{
+    width: 100%;
+}
+
+
+
 /* Responsive for mobile device */
 @media screen and (max-width: 576px) {
     /* nav related */
@@ -152,6 +178,11 @@ main{
     .gammer-container{
         flex-direction: column;
     }
+    /* vedio section */
+    .vedio-contaner{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* Responsive for tablet device */
@@ -165,5 +196,10 @@ main{
     .gammer-container{
         flex-direction: column;
         padding: 0 10px;
+    }
+
+    .vedio-contaner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
