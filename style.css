@@ -1,24 +1,24 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
 
-.discription-color{
+.discription-color {
     color: #a5a5a5;
 }
 
-.heading-1{
+.heading-1 {
     font-size: 30px;
     font-weight: 600;
 }
 
-.heading-2{
+.heading-2 {
     font-size: 40px;
     font-weight: 700;
 }
 
-.secondary-btn{
+.secondary-btn {
     margin-left: 10px;
     background-color: aqua;
     color: black;
@@ -30,13 +30,13 @@ body{
     font-weight: 600;
 }
 
-.secondary-btn:hover{
+.secondary-btn:hover {
     background-color: orange;
     color: white;
     transition-duration: 0.5s;
 }
 
-.primaru-btn{
+.primaru-btn {
     background-color: orange;
     color: white;
     padding: 10px 20px;
@@ -47,7 +47,7 @@ body{
     font-weight: 600;
 }
 
-.primaru-btn:hover{
+.primaru-btn:hover {
     background-color: aqua;
     color: black;
     transition-duration: 0.5s;
@@ -55,80 +55,81 @@ body{
 
 
 /* nav related style */
-header{
+header {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav-icon{
+.nav-icon {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.nav-icon img{
+.nav-icon img {
     width: 50px;
 }
 
-.nav-icon span{
+.nav-icon span {
     color: orange;
     font-size: 30px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
-    
+
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
-    
+
 }
 
-.nav-btn{
+.nav-btn {
     background-color: #c0c1c3;
     padding: 7px 10px;
     border-radius: 6px;
 }
 
 /* banner related */
-.banner-section{
+.banner-section {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-img{
+.banner-img {
     width: 100%;
     height: 90vh;
 }
 
 /* main */
-main{
+main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 /* main */
 
 /* gammaer section */
-.gammer-container{
+.gammer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -136,45 +137,45 @@ main{
     margin: 100px 0;
 }
 
-.gammer-img{
+.gammer-img {
     width: 50%;
 }
 
-.gammer-img img{
+.gammer-img img {
     width: 100%;
 }
 
-.gammer-discription{
+.gammer-discription {
     width: 50%;
 }
 
 /* vedio section */
-.vedio-section{
+.vedio-section {
     margin: 100px 0;
 }
 
-.vedio-discription{
+.vedio-discription {
     text-align: center;
     margin-bottom: 70px;
 }
 
-.vedio-discription h1{
+.vedio-discription h1 {
     font-size: 35px;
 }
 
-.vedio-contaner{
+.vedio-contaner {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
-.vedio-card img{
+.vedio-card img {
     width: 100%;
 }
 
 
 /* Instant download section */
-.instand-download-section{
+.instand-download-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -182,31 +183,31 @@ main{
     margin: 100px 0;
 }
 
-.instant-heading{
+.instant-heading {
     font-size: 40px;
     font-weight: 700;
 }
 
-.instant-discription{
+.instant-discription {
     color: #a5a5a5;
 }
 
-.instant-text{
+.instant-text {
     width: 50%;
     text-align: right;
 }
 
 
-.instant-img-area{
+.instant-img-area {
     width: 50%;
 }
 
-.instant-img{
+.instant-img {
     width: 100%;
 }
 
 /* play-section-container */
-.play-section-container{
+.play-section-container {
     margin-bottom: 100px;
     display: flex;
     align-items: center;
@@ -214,164 +215,240 @@ main{
     gap: 100px;
 }
 
-.play-img{
+.play-img {
     width: 50%;
 }
 
-.play-img img{
+.play-img img {
     width: 100%;
 }
 
-.play-text{
+.play-text {
     width: 50%;
 }
 
+.carear-section {
+    background-color: #db9b5b;
+    padding: 30px 0px;
+}
+
+.carear-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0 170px;
+}
+
+.carear-discription {
+    width: 50%;
+}
+
+.carear-img {
+    width: 50%;
+}
+
+.carear-img img {
+    width: 100%;
+}
+
+.devided-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 /* Responsive for mobile device */
 @media screen and (max-width: 576px) {
+
     /* nav related */
-    nav{
+    nav {
         flex-direction: column;
     }
+
     /* banner related */
-    .banner-container{
+    .banner-container {
         flex-direction: column;
         gap: 30px;
         padding: 0 20px;
     }
 
-    .gammer-container{
+    .gammer-container {
         flex-direction: column-reverse;
-        padding:  0 1rem;
+        padding: 0 1rem;
     }
 
-    .gammer-img{
+    .gammer-img {
         width: 100%;
     }
-    
-    .gammer-img img{
+
+    .gammer-img img {
         width: 100%;
     }
-    
-    .gammer-discription{
-        width:100%;
+
+    .gammer-discription {
+        width: 100%;
     }
+
     /* vedio section */
-    .vedio-contaner{
+    .vedio-contaner {
         display: flex;
         flex-direction: column;
     }
 
     /* instant section */
-    .instand-download-section{
+    .instand-download-section {
         flex-direction: column;
         padding: 0 1rem;
         gap: 20px;
     }
 
-    .instant-text{
+    .instant-text {
         width: 100%;
         text-align: center;
     }
-    
-    .instant-img-area{
+
+    .instant-img-area {
         width: 100%;
         position: relative;
     }
-    
-    .instant-img{
+
+    .instant-img {
         width: 100%;
-        
+
     }
 
     /* play-section-container */
-.play-section-container{
-    flex-direction: column;
-    gap: 20px;
-    padding: 0 1rem;
-}
+    .play-section-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 1rem;
+    }
 
-.play-img{
-    width: 100%;
-}
+    .play-img {
+        width: 100%;
+    }
 
-.play-img img{
-    width: 100%;
-}
+    .play-img img {
+        width: 100%;
+    }
 
-.play-text{
-    width: 100%;
-}
+    .play-text {
+        width: 100%;
+    }
+
+    /* carear section */
+    .carear-container {
+        flex-direction: column;
+        gap: 30px;
+        margin: 0;
+        padding: 0 1rem;
+    }
+    
+    .carear-discription {
+        width: 100%;
+    }
+    
+    .carear-img {
+        width: 100%;
+    }
+    
+    .carear-img img {
+        width: 100%;
+    }
 }
 
 /* Responsive for tablet device */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+
     /* banner related */
-    .banner-container{
+    .banner-container {
         flex-direction: column;
         padding: 0 10px;
     }
 
     /* gammer section */
 
-    .gammer-container{
+    .gammer-container {
         flex-direction: column;
         padding: 0 30px;
     }
 
-    .gammer-img{
+    .gammer-img {
         width: 100%;
-    }
-    
-    .gammer-img img{
-        width: 100%;
-    }
-    
-    .gammer-discription{
-        width:100%;
     }
 
-    .vedio-contaner{
+    .gammer-img img {
+        width: 100%;
+    }
+
+    .gammer-discription {
+        width: 100%;
+    }
+
+    .vedio-contaner {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
     /* instant section */
-    .instand-download-section{
+    .instand-download-section {
         flex-direction: column;
     }
 
-    .instant-text{
-        width: 100%;
-    }
-    
-    .instant-img-area{
-        width: 100%;
-    }
-    
-    .instant-img{
+    .instant-text {
         width: 100%;
     }
 
-    .instant-text{
+    .instant-img-area {
+        width: 100%;
+    }
+
+    .instant-img {
+        width: 100%;
+    }
+
+    .instant-text {
         text-align: center;
     }
 
     /* play-section-container */
-.play-section-container{
-    flex-direction: column;
-    gap: 20px;
-    padding: 0 1.5rem;
-}
+    .play-section-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 1.5rem;
+    }
 
-.play-img{
-    width: 100%;
-}
+    .play-img {
+        width: 100%;
+    }
 
-.play-img img{
-    width: 100%;
-}
+    .play-img img {
+        width: 100%;
+    }
 
-.play-text{
-    width: 100%;
-}
+    .play-text {
+        width: 100%;
+    }
+
+    /* carear section */
+    .carear-container {
+        flex-direction: column;
+        gap: 30px;
+        margin: 0;
+        padding: 0 1rem;
+    }
+    
+    .carear-discription {
+        width: 100%;
+    }
+    
+    .carear-img {
+        width: 100%;
+    }
+    
+    .carear-img img {
+        width: 100%;
+    }
 }
