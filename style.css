@@ -258,6 +258,30 @@ main {
     justify-content: space-between;
 }
 
+/* Brand section */
+.brand-area{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.margin-area{
+    margin: 100px 0;
+}
+.simpple-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.brand-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
 
 /* Responsive for mobile device */
 @media screen and (max-width: 576px) {
@@ -357,6 +381,13 @@ main {
     .carear-img img {
         width: 100%;
     }
+
+    /* brand section */
+    .brand-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 0.5rem;
+    }
 }
 
 /* Responsive for tablet device */
@@ -450,5 +481,12 @@ main {
     
     .carear-img img {
         width: 100%;
+    }
+
+    /* brand section */
+    .brand-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 1rem;
     }
 }
