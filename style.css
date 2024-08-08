@@ -197,6 +197,12 @@ main {
     text-align: right;
 }
 
+.positio-img{
+    position: relative;
+    bottom: 200px;
+    right: 80px;
+}
+
 
 .instant-img-area {
     width: 50%;
@@ -222,6 +228,12 @@ main {
 .play-img img {
     width: 100%;
 }
+
+/* .play-position-img{
+    position: relative;
+    bottom: 200px;
+    width: 50px;
+} */
 
 .play-text {
     width: 50%;
